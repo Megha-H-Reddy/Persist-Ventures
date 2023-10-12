@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: o;
+}
+body{
+    background-image:url(pexels-pavel-danilyuk-8294624.jpg) ;
+    background-position: center;
+    background-size: cover;
+    color:white; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+nav{
+    width: 100%;
+    height: 60px;
+    /* padding-top: 10px; */
+    background-color: rgb(255, 123, 7);
+    position:sticky;
+    top: 0px;
+    cursor: pointer;
+}
+nav h2{
+    /* display: inline-block; */
+    font-size: 35px;
+    float: left;
+    text-shadow: 1px 0px 6px black;
+}
+nav ul{
+    list-style-type: none ;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+    align-items: end;
+    margin-left: 40px;
+
+    
+}
+
+nav li a:hover{
+    color: black;
+    /* background-color:white; */
+    transition:ease-in;
+    /* padding: 15px; */
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    display:inline-block;
+    text-align: center;
+    padding: 14px 20px;
+    
+}
+
+h1{
+    margin: 30px;
+    padding-top: 200px;
+    font-size: 50px;
+    /* text-shadow: 7px 0px 7px rgb(255, 123, 7);*/
+    width: 100%; 
+    text-shadow: 0 2px 1px #f87b15, 
+      -1px 3px 1px #ed831a, 
+      -2px 5px 1px #f15c26;
+      margin-bottom: 0%;
+      
+}
+
+p{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.socialmedia{
+    width: 100%;
+    height: 60px;
+    
+}
+.socialmedia ul {
+  list-style-type: none;
+}
+.socialmedia ul li {
+    display: inline-block;
+}
+.socialmedia button{
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 50vh;
+    background-color: #f87b15;
+    border: 2px solid #f87b15;
+    box-shadow: #f87b15 2px 0px 2px;
+    
+}
+.socialmedia a{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.partners h2{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.partners ul{
+    list-style-type: none;
+}
+.partners ul li{
+    display: inline-block;
+}
+.partners img{
+   width: 100px;
+   height: 100px;
+}
+.carousel-caption .carousel-inner  h5 p{
+    color: white;
+    
+} 
+
+.carousel-inner img {
+    height:300px;
+    margin: auto;
+  }
+  .carousel{
+    /* width: 50%; */
+    /* height: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  .card-deck{
+    display: flex;
+
+  }
+  .hiring h2{
+      font-size: 50px;
+      color: #f95418;
+      margin-top: 30px;
+      font-weight: 800;
+      text-shadow: 2px 1px 1px black;
+  }
+  .hiring button{
+    padding: 10px;
+    margin-left: 40%;
+    border-radius: 15px;
+  }
+  .hiring button:hover{
+    background-color: rgb(60, 60, 255);
+    color:white;
+
+  }
+  .rabbit {
+    width: 100%;
+    height: 310px;
+    background-color: #eee;
+    display: flex;
+    
+  }
+  .rabbit ul{
+     list-style-type: none;
+     margin-right: 200px;
+     /* display:flex; */
+     /* justify-content: flex-start; */
+  }
+  .rabbit  li{
+    display:flex;
+    font-size:10px;
+    padding-bottom: 0.5rem;
+/* border-bottom: #444 solid 2px; */
+/* margin-bottom: 1rem; */
+justify-content:flex-start;
+  }
+  .rabbit  .main{
+    color: #f15c26;
+    font-size: 25px;
+  }
+  .rabbit ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+  }
+  .rabbit ul li a:hover{
+    color: #413c3c;
+  }
+  .caption{
+    background-color: #f15c26;
+    text-align: center;
+
+  }
